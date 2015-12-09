@@ -1,9 +1,9 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           jetty-version-maven-plugin
 Version:        1.0.7
-Release:        9.0%{?dist}
+Release:        9.1
 Summary:        Jetty version management Maven plugin
-
+Group:		Development/Java
 License:        ASL 2.0 or EPL
 URL:            http://www.eclipse.org/jetty/
 Source0:        http://git.eclipse.org/c/jetty/org.eclipse.jetty.toolchain.git/snapshot/%{name}-%{version}.tar.bz2
@@ -13,7 +13,7 @@ BuildRequires:  maven-local
 BuildRequires:  mvn(org.apache.commons:commons-lang3)
 BuildRequires:  mvn(org.apache.maven:maven-plugin-api)
 BuildRequires:  mvn(org.apache.maven:maven-project)
-BuildRequires:  mvn(org.eclipse.jetty.toolchain:jetty-toolchain)
+BuildRequires:  mvn(org.eclipse.jetty.toolchain:jetty-toolchain:pom:)
 
 
 %description
