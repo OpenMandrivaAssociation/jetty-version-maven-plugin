@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           jetty-version-maven-plugin
 Version:        1.0.7
-Release:        9.1
+Release:        9.2
 Summary:        Jetty version management Maven plugin
 Group:		Development/Java
 License:        ASL 2.0 or EPL
